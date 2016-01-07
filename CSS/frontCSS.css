@@ -1,0 +1,80 @@
+.background{
+	width: 100%;
+}
+
+.centerPageDiv{
+	width: 350px;
+	position: absolute;
+	top: 25%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align:center;
+}
+
+.fancyFont{
+	color: white;
+	font-family: 'Black Spoon';
+}
+
+#kemperBG {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+	max-width:100%;
+	max-height: 100%;
+}
+
+
+.myButton {
+    -webkit-appearance: none;
+    color: #2d2e33;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Black Spoon', sans-serif;
+    border: 0px;
+    letter-spacing: 2px;
+    font-size: 23px;
+    min-height: 36px;
+    line-height: 36px;
+    padding: 2px 30px 0px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    width: auto;
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+    transition: all .3s ease 0s;
+    background: rgb(246,210,105);
+    background: -moz-linear-gradient(top, rgba(246,210,105,1) 0%, rgba(240,183,59,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,210,105,1)), color-stop(100%,rgba(240,183,59,1)));
+    background: -webkit-linear-gradient(top, rgba(246,210,105,1) 0%,rgba(240,183,59,1) 100%);
+    background: -o-linear-gradient(top, rgba(246,210,105,1) 0%,rgba(240,183,59,1) 100%);
+    background: -ms-linear-gradient(top, rgba(246,210,105,1) 0%,rgba(240,183,59,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,210,105,1) 0%,rgba(240,183,59,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6d269', endColorstr='#f0b73b',GradientType=0 );
+    width: 165px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+.myButton:hover {
+	background-color: blue;
+	color: red;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
